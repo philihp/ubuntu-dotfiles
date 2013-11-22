@@ -11,7 +11,7 @@ To Install:
 ToDo
 ----
 
-Setup and install SublimeText 2
-Setup and install gitg
-Setup and install autofs
-Setup VPN to work without typing in any usernames/passwords
+* Setup and install SublimeText 2
+* Setup and install gitg
+* Setup and install autofs
+* Setup VPN to work without typing in any usernames/passwords
