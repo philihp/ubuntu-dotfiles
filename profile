@@ -21,6 +21,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$PATH:/opt/play-2.2.0/"
+export PATH="$PATH:/opt/play-2.2.1/"
 
 alias ll="ls -l"
