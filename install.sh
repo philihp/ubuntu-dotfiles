@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm ~/.profile
+
 for name in *; do
   target="$HOME/.$name"
   if [ -e "$target" ]; then
@@ -14,3 +16,7 @@ for name in *; do
     fi
   fi
 done
+
+sudo apt-add-repository -y ppa:webupd8team/sublime-text-2
+sudo apt-get -y update
+sudo apt-get -y install sublime-text
