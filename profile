@@ -24,3 +24,4 @@ fi
 export PATH="$PATH:/opt/play-2.2.1/"
 
 alias ll="ls -l"
+alias sublime="sublime-text"
