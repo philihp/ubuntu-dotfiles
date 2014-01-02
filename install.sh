@@ -20,3 +20,6 @@ done
 sudo apt-add-repository -y ppa:webupd8team/sublime-text-2
 sudo apt-get -y update
 sudo apt-get -y install sublime-text
+sudo apt-get -y install default-jre scala
+sudo apt-get -y install unzip
+

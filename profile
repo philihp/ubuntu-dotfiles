@@ -21,7 +21,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$PATH:/opt/play-2.2.1/"
+export PATH="$PATH:~/Programs/play/"
 
 alias ll="ls -l"
 alias sublime="sublime-text"
