@@ -17,6 +17,8 @@ for name in *; do
   fi
 done
 
+ln -s ~/.dotfiles/sasv9.cfg ~/sasv9.cfg
+
 sudo apt-add-repository -y ppa:webupd8team/sublime-text-2
 sudo apt-get -y update
 sudo apt-get -y install sublime-text

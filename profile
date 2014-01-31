@@ -21,7 +21,10 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$PATH:~/Programs/play/"
+export PATH="$PATH:~/Programs/play/:~/bin"
+export PATH="$PATH:/usr/local/SASHome/SASFoundation/9.4"
 
 alias ll="ls -l"
 alias sublime="sublime-text"
+
+export NSS_SSL_CBC_RANDOM_IV=0
